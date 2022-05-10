@@ -1,0 +1,26 @@
+{
+  "name": "@ardatho/api-search",
+  "version": "0.0.1",
+  "description": "Search api core built with elasticsearch for ardatho",
+  "author": "thomas@ardatho.com",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib && rm -rf tsconfig.tsbuildinfo",
+    "build": "yarn clean && tsc",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@ardatho/sentry": "^0.0.1",
+    "dotenv": "^16.0.0",
+    "koa": "^2.13.4"
+  }
+}

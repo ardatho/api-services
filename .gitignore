@@ -1,0 +1,21 @@
+.DS_Store
+.tags*
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+*.yaml
+.env
+.env-*
+apidoc
+artillery.yml
+.vscode
+coverage
+
+# Jetbrains IDEs
+.idea
+*.iml
+
+modules
+packages/*/lib
+packages/*/tsconfig.tsbuildinfo
